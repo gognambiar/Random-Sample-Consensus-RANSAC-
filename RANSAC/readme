@@ -1,0 +1,3 @@
+Implementation of Random Sample Consensus Algorithm to draw lines to sense the location of an obstacle that a robot is sensing.
+
+Implmented in C++

@@ -1,0 +1,14 @@
+<launch>
+	<node name="stage" pkg="stage_ros" type="stageros"
+	      args="$(find lab2)/world/playground.world" />
+        
+                <node pkg="lab2" type="evaderonly"
+          name="evaderonly" />       
+
+             <node pkg="lab2" type="ransac"
+          name="ransac" />
+      
+        <node name="rviz" pkg="rviz" type="rviz" args="$(find lab2)/rviz1.rviz"/>
+
+
+</launch>
